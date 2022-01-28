@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+#title
+{
+    background-image: url("../img/2022-01-26_21.22.03.png");
+    background-position: 1650px 1575px;
+    display: flex;
+    justify-content:flex-start;
+    margin: 0;
+}
+
+#title-text
+{
+    color: gold;
+    padding-left: 1em;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 2em;
+}
+
+#content-grid {
+    display: grid;
+    grid-gap: 5px;
+}
+
+#content-faq {
+    background-color: aquamarine;
+    grid-row-start: 1;
+    grid-column-end: 3;
+    width: 50px;
+    height: 50px;
+}
